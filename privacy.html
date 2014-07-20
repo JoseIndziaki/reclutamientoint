@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Reclutamiento Inteligente</title>
+		<link rel="icon" href="images/favicon.ico">
+		<link rel="shortcut icon" href="images/favicon.ico" />
+        <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/camera.css">
+		<link rel="stylesheet" href="css/form.css">
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery-migrate-1.1.1.js"></script>
+		<script src="js/superfish.js"></script>
+		<script src="js/forms.js"></script>
+		<script src="js/jquery.ui.totop.js"></script>
+		<script src="js/jquery.equalheights.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/jquery.ui.totop.js"></script>
+		<script src="js/tms-0.4.1.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('.slider_wrapper')._TMS({
+					show:0,
+					pauseOnHover:false,
+					prevBu:'.prev',
+					nextBu:'.next',
+					playBu:false,
+					duration:800,
+					preset:'fade',
+					pagination:true,//'.pagination',true,'<ul></ul>'
+					pagNums:false,
+					slideshow:8000,
+					numStatus:false,
+					banners: 'fade',
+					waitBannerAnimation:false,
+					progressBar:false
+				});
+			});
+			$(document).ready(function(){
+				!function(){
+			var map=[]
+			 ,names=[]
+			 ,win=$(window)
+			 ,header=$('header')
+			 ,currClass
+			$('.content').each(function(n){
+			 map[n]=this.offsetTop
+			 names[n]=$(this).attr('id')
+			})
+			win
+			 .on('scroll',function(){
+				var i=0
+				while(map[i++]<=win.scrollTop());
+				if(currClass!==names[i-2])
+				currClass=names[i-2]
+				header.removeAttr("class").addClass(names[i-2])
+			 })
+			}(); });
+					function goToByScroll(id){
+				$('html,body').animate({scrollTop: $("#"+id).offset().top},'slow');
+				}
+				$(document).ready(function(){
+					$().UItoTop({ easingType: 'easeOutQuart' });
+				});
+		</script>
+		<!--[if lt IE 8]>
+			<div style=' clear: both; text-align:center; position: relative;'>
+				<a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+					<img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+				</a>
+			</div>
+		<![endif]-->
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+			<link rel="stylesheet" media="screen" href="css/ie.css">
+		<![endif]-->
+	</head>
+	<body class="">
+<!--==============================header=================================-->
+		<header class="page1">
+			<div class="container_12">
+				<div class="grid_12">
+					<h1><a href="index.html" ><img style="max-height:100%;" src="images/Logo3.png" alt="Gerald Harris attorney at law"></a></h1>
+					<div class="menu_block">
+						<nav class="">
+							<ul class="sf-menu">
+								<li class="current men"><a href="index.html">INICIO </a> <strong class="hover"></strong></li>
+								<li class="men1"><a href="index.html#page2">QUIÉNES SOMOS</a><strong class="hover"></strong></li>
+								<li class=" men2"><a href="index.html#page3">PRODUCTOS</a> <strong class="hover"></strong></li>
+								<li class=" men3"><a href="index.html#page4">PRECIOS</a> <strong class="hover"></strong></li>
+								<li class=" men4"><a href="index.html#page5">SOPORTE</a> <strong class="hover"></strong></li>
+								<li class=" men5"><a href="#">FORO</a> <strong class="hover"></strong></li>
+							</ul>
+						</nav>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</header>
+<!--=======content================================-->
+		<div id="page1" class="content">
+			<div class="ic">More Website Templates @ TemplateMonster.com - September 9, 2013!</div>
+			<div class="container_12">
+				<div>
+					<div class="privacy">
+					  <p class="titulo"><strong>AVISO DE PRIVACIDAD</strong></p>
+                        <p class="titulo"><strong>Identidad y domicilio  del responsable</strong> </p><br>
+                          <p>Reclutamiento Inteligente (en lo sucesivo referido  indistintamente como &ldquo;RI&rdquo;, &ldquo;nuestro&rdquo;, o &ldquo;nosotros&rdquo;) se preocupa por la  confidencialidad y seguridad de los datos personales de sus clientes/usuarios y  tiene el compromiso de proteger su privacidad y cumplir con la legislación  aplicable a la protección de datos personales en posesión de los particulares. RI  es el responsable de recabar sus datos personales y nuestro domicilio es el  ubicado en Calle González Ortega #812, Barrio de La Noria, Oaxaca de Juárez,  Oax. C.P. 68000. Nuestros datos de contacto se encuentran en www.reclutamientointeligente.mx.</p>
+  <p class="titulo"><strong>Descripción del aviso</strong> </p>
+                          <p>Los  términos que se utilicen en el presente aviso de privacidad (en lo sucesivo  referido como &ldquo;Aviso&rdquo;) tendrán la definición que a los mismos le asigna la Ley  Federal de Protección de Datos Personales en Posesión de Particulares,  publicada en el Diario Oficial de la Federación el 5 de julio de 2010 (en lo  sucesivo referida como la &ldquo;Ley&rdquo;), con excepción expresa de aquellos que aquí se  definen. Este Aviso especifica el tipo de datos que RI recolecta, los fines  para los cuales lleva a cabo el tratamiento de los mismos, así como los  derechos con que cuenta el clientes/usuario al respecto.</p>
+  <p class="titulo"><strong>Datos personales que  recaba RI</strong></p>
+                          <p>Los  datos personales que puede recabar RI incluyen (i) nombres, apellidos,  domicilios, teléfonos, correos electrónicos, claves del Registro Federal de  Contribuyentes, información de formas de pago; (ii) toda información que la  persona le proporcione con la finalidad de aplicar a una vacante, realizar un  estudio socioeconómicos, pruebas psicométricas (iii) toda aquella información  que el cliente/usuario le ha proporcionado y/o le proporcione a lo largo de la  relación contractual o comercial que establezcan; (iv) aquellos datos propios y  relacionados con los servicios que presta RI en el cumplimiento de sus servicios  administrativos y diversos en general (en lo sucesivo y conjuntamente referidos  como los &ldquo;Servicios&rdquo;), (v) información técnica relativa al acceso y/o uso de  los Servicios (vi) así como cualesquiera otros datos que se recaben de tiempo  en tiempo con motivo de la prestación de los Servicios, por ministerio de ley,  por mandamiento de autoridad competente o a través de otras fuentes que están  permitidas por la ley. Toda información personal que identifica al cliente/usuario,  revelada de manera directa o por cualquier medio de contacto y/o foro público  de conexión en línea, podrá ser recopilada y tratada por RI.</p>
+                          <p>La  recolección de datos que realiza RI es de buena fe y por tal motivo presume que  los mismos son verídicos, correctos, completos e identifican a la persona  (física o moral) que los suministra y/o provee, por lo que es responsabilidad  del titular que los datos que éste le proporcione a RI cumplan con tales  características y se actualicen en la medida que se requiera. De igual forma, RI  se reserva el derecho de ejercer las acciones que considere pertinentes en caso  de falsedad de datos.</p>
+                        <p class="titulo"><strong>¿Con qué finalidad recaba RI los datos personales?</strong></p>
+                          Los datos personales podrán ser tratados y utilizados por RI para llevar a cabo  algunas o todas las actividades relacionadas con el cumplimiento de las  obligaciones que deriven de la relación contractual y/o comercial que se  originen y/o deriven de la prestación de los Servicios; con el propósito de  informar a los clientes del lanzamiento o cambios de nuevos productos,  servicios, promociones y/u ofertas de nosotros y/o de terceros, realizar  estudios sobre hábitos de consumo y de mercado, así como para cualquier otra  actividad tendiente a promover, mantener, mejorar y evaluar los Servicios.</p>
+                        <p class="titulo"><strong>Los datos personales pueden ser transferidos a terceros</strong>
+                          <p>RI podrá transferir los datos personales que  haya recibido y/o recolectado y/o llegue a recibir y/o recolectar de sus  usuarios terceros, y/o cualquier autoridad competente que así lo solicite para  llevar a cabo las finalidades descritas en el párrafo que antecede. La  transferencia de los datos personales del cliente/usuario se encuentra limitada  a aquellos actos, hechos y/o procedimientos que RI requiera implementar a efecto de estar en  posibilidad de cumplir con sus obligaciones contractuales, regulatorias y/o  comerciales en el curso ordinario de sus operaciones. Si el cliente/usuario no  manifiesta su oposición para que sus datos personales sean transferidos, se  entenderá que ha otorgado su consentimiento para ello.</p>
+  <p class="titulo"><strong>Medios para ejercer los derechos de acceso, rectificación u  oposición</strong></p>
+                          <p>RI cuenta con los recursos técnicos,  materiales y humanos necesarios para asegurar que los datos personales del cliente/usuario  serán tratados en estricto apego a la Ley. En cualquier momento, el cliente/usuario  tendrá el derecho a solicitar a RI el ejercicio de los derechos que le  confiere la Ley, mediante el envío de la solicitud correspondiente por escrito  al siguiente correo electrónico contacto@ri.mx. Queda entendido que para que RI pueda atender correcta  y oportunamente cualquiera de las solicitudes a las que se refiere esta  sección, la solicitud deberá contener como mínimo: (i) Nombre completo, (ii)  Número de Teléfono, (iii) dirección, (iv) descripción del objeto de la  solicitud, y (v) razones que motivan su solicitud. Nuestra respuesta a su  solicitud será enviada dentro del plazo permitido por la Ley al correo  electrónico del remitente de la misma.</p>
+  <p class="titulo"><strong>Modificaciones al aviso de privacidad</strong></p>
+                          <p>RI expresamente se reserva el derecho, bajo  su exclusiva discreción, de cambiar, modificar, agregar o eliminar partes del  presente Aviso en cualquier momento. En tal caso, RI publicará en el sitio web www.reclutamientointeligente.mx  las modificaciones que se le practiquen al Aviso e indicará la fecha de última  versión del Aviso. En la medida que el usuario no solicite, en los términos  antes mencionados, la cancelación y/u oposición de sus datos personales y  continúe accediendo y/o utilizando, parcial o totalmente, los Servicios,  implicará que ha aceptado y consentido tales cambios y/o modificaciones.</p>
+                         <p> Al proporcionarle sus datos personales a RI, el cliente/usuario  expresamente reconoce y acepta el presente Aviso, según el mismo pueda ser  modificado o ajustado de tiempo en tiempo, y otorga su consentimiento para que RI proceda con el  procesamiento de sus datos personales de la forma que se explica en el presente.  Si el usuario no acepta este Aviso, podrá ejercer los derechos que le confiere  la Ley, según se describe anteriormente.</p>
+                    </div>
+				</div>
+			</div>
+		</div>
+        <footer>
+			<div class="container_12">
+				<div class="grid_12">
+					<div class="copy">
+						<a onClick="goToByScroll('page1'); return false;" href="#" style="color:#333">ReclutamientoInteligente</a>  &copy; 2014 | <a href="#">Política de Privacidad</a> <br> Diseñado por <a href="http://www.indziaki.com/" rel="nofollow">Indziaki</a>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</footer>
+	</body>
+</html>
